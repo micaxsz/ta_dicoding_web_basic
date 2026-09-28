@@ -17,14 +17,14 @@ body {
   margin: 0;
   background: var(--bg);
   color: var(--ink);
-  font-family: "Figtree", system-ui, sans-serif;
+  font-family: "QuickSand", system-ui, sans-serif;
   line-height: 1.6;
 }
 
 h1,
 h2,
 h3 {
-  font-family: "Fraunces", serif;
+  font-family: "QuickSand", serif;
   font-weight: 600;
   margin: 0 0 0.5em;
 }
@@ -37,8 +37,7 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Header: logo and nav in one row */
-.site-header {
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -96,7 +95,7 @@ main {
   flex-wrap: wrap;
 }
 
-#content {
+#projek {
   flex: 2 1 480px;
   display: flex;
   flex-direction: column;
@@ -137,7 +136,7 @@ main {
   transform: rotate(0deg) translateY(-4px);
 }
 
-.tech-tags {
+.tech-stack {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
@@ -145,7 +144,7 @@ main {
   padding: 0;
   margin: 1rem 0 0;
 }
-.tech-tags li {
+.tech-stack li {
   background: var(--bg);
   border: 1px solid var(--pink);
   border-radius: 999px;
